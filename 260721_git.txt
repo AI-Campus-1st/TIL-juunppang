@@ -1,0 +1,26 @@
+git
+
+github - 커뮤니티 (게시판)
+git - 글 관리 프로그램(올리는것 까지)
+
+최초 작성자(Author) 설정
+git config --global user.name ""
+git config --global user.email "github 이메일"
+
+최초 1번
+git clone 저장소 주소(복제)
+-> git pull
+
+내가 만든건? 어떻게 올리지?
+최초 1회
+git init -여기를 git 저장소 폴더로 관리하겠다.
+저장소 연결
+git remote add origin 저장소 주소
+
+저장소에 올리기
+git add 파일들 (모든 파일 '.')
+git commit -m "기록 메시지"
+git push origin master(main)
+
+git status - add 상태
+git reset  - 상태 초기화
