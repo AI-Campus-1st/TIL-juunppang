@@ -19,8 +19,12 @@ git remote add origin 저장소 주소
 
 저장소에 올리기
 git add 파일들 (모든 파일 '.')
-git commit -m "기록 메시지"
+git commit -m "기록 메시지" -> git log 
 git push origin master(main)
 
 git status - add 상태
 git reset  - 상태 초기화
+
+또 올리기
+-> 반복
+
