@@ -1,0 +1,11 @@
+Boolean - False, True
+None
+논리연산자 - and, or, not / 비교 연산 is
+포함 테스트 - in
+del - 변수 삭제
+def - 함수 정의 
+class - 클래스 정의
+조건문 - if,  elif, else / match, case (3.10)
+반복문 - for. while / break, continue, pass
+모듈 - import, from, as
+에러처리 - try-except, finally / raise
