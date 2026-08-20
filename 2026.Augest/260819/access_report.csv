@@ -1,0 +1,4 @@
+﻿ip,timestamp,method,path,status,bytes,user_agent,is_bot
+203.0.113.42,06/Aug/2026:14:22:31 +0900,GET,/list?page=3,200,5321,Mozilla/5.0 (Windows NT 10.0; Win64; x64),False
+198.51.100.7,06/Aug/2026:14:22:33 +0900,POST,/api/search,429,118,python-requests/2.31.0,True
+203.0.113.42,06/Aug/2026:14:22:35 +0900,GET,/detail/9981,404,209,Mozilla/5.0 (Windows NT 10.0; Win64; x64),False
