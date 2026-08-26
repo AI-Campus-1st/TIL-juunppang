@@ -81,18 +81,3 @@ if __name__ == '__main__':
 # 1. 풀 생성비용은 스레드에 비해 프로세스가 더 크다.
 # 2. 프로세스는 lamda, 세션 객체, 드라이버를 넘길 수 없는 직렬화 제약이 있다.
 # 3. 스레딩은 하나의 프로세스안에 여러 작업자가 존재하는것과 같고(메모리 공유), 프로세싱은 여러 프로세스가 독립된 CPU와 메모리를 가지면서 프로그램을 실행하는 것.
-
-
-
-# 문항 2 Scrapy 포팅 또는 httpx 비동기 전환 (택일)
-# B. httpx 비동기 전환
-# A 대상을 httpx.AsyncClient + asyncio.gather 로 다시 작성할 것
-
-# asyncio.Semaphore 와 httpx.Limits 로 동시 수를 이중 제한할 것
-
-# time.sleep 대신 await asyncio.sleep 을 쓸 것
-
-# return_exceptions=True 로 부분 실패를 허용할 것
-
-# 소요시간을 측정해볼 것
-
