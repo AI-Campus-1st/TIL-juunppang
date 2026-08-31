@@ -1,3 +1,4 @@
+```sql
 --네이버 주식용 테이블 tb_nf_stock 과 금융위 주식용 테이블 tb_fsc_stock 로 각각 테이블을 생성하고 적재하시오.
 
 --스키마는 둘 다 공통적으로bas_dt(DATE) / srtn_cd(CHAR 6) / itms_nm / clpr / vs / mkp / hipr / lopr / trqu / raw_id 를 가진다.
@@ -88,3 +89,4 @@ CREATE TABLE IF NOT EXISTS tb_mart_stock_daily(
     vol_ratio   DOUBLE,
     PRIMARY KEY (srtn_cd, bas_dt)
 ) ENGINE InnoDB DEFAULT CHARSET=utf8mb4;
+```
